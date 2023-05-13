@@ -1,0 +1,33 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6d6c6c49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid transparent;
+
+  animation: load 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.inner {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  :global {
+    .ant-menu {
+      background-color: transparent !important;
+    }
+  }
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+.topMenu {
+  min-width: 200px;
+  margin-left: 10px;
+  :global {
+    .ant-menu-item-selected {
+      color: #ffffff !important;
+      background-color: rgb(255 255 255 / 15%) !important;
+      border-radius: 0 !important;
+    }
+  }
+}

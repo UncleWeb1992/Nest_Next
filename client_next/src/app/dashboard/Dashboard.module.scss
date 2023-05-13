@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.left {
+  padding-right: 10px;
+  width: 20%;
+  border-right: 1px solid #a7a7a770;
+}
+
+.right {
+  width: 70%;
+}
